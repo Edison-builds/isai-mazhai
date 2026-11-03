@@ -1,12 +1,34 @@
 # 🎧 Isai Mazhai | இசை மழை
 
-### "இசை மழையில் நனைய நீங்கள் தயாரா?"
+### இசை மழையில் நனைய நீங்கள் தயாரா?
 
 **Let the Music Rain.**
 
-Isai Mazhai is a web-based music player built using React. It provides a simple and engaging interface for discovering and listening to music, with playback controls, favourite tracks and a full-page music player.
+Isai Mazhai is a React-based music player application designed to provide an enjoyable music-listening experience through a clean interface, album artwork and interactive playback controls.
 
 **Created with ❤️ by Edison**
+
+---
+
+## 🌐 Live Demo
+
+Experience Isai Mazhai here:
+
+### [🎵 Open Isai Mazhai](https://isai-mazhai.vercel.app/)
+
+## 📸 Screenshots
+
+### Home Page
+
+![Isai Mazhai Home Page](docs/screenshots/home.png)
+
+### Full-Page Music Player
+
+![Isai Mazhai Music Player](docs/screenshots/player.png)
+
+### Mobile View
+
+![Isai Mazhai Mobile View](docs/screenshots/mobile.jpeg)
 
 ---
 
@@ -16,14 +38,14 @@ Isai Mazhai is a web-based music player built using React. It provides a simple 
 * ⏭️ Next and previous track controls.
 * 🎚️ Volume control.
 * ⏱️ Song progress bar with seeking functionality.
-* ❤️ Add and remove favourite songs.
+* ❤️ Like and unlike favourite songs.
 * 💾 Save favourite songs using browser Local Storage.
 * 🔍 Search songs by title or artist.
-* 🖼️ Display album artwork.
+* 🖼️ Album artwork for each song.
 * 🎧 Full-page music player.
 * 🌧️ Blurred album artwork background.
 * ✨ Animated user interface.
-* 📱 Responsive layout styling.
+* 📱 Mobile-friendly responsive layout.
 
 ## 🛠️ Technologies Used
 
@@ -33,23 +55,32 @@ Isai Mazhai is a web-based music player built using React. It provides a simple 
 * CSS3
 * Vite
 * Lucide React
+* Browser Local Storage
 
 ## 📂 Project Structure
 
 ```text
-melody-music-app/
+isai-mazhai/
 │
 ├── public/
 │   ├── songs/
 │   ├── covers/
+│   ├── favicon.svg
 │   ├── isai-mazhai-logo.png
 │   └── isai-mazhai-favicon.png
 │
 ├── src/
+│   ├── assets/
 │   ├── App.jsx
 │   ├── App.css
+│   ├── index.css
 │   └── main.jsx
 │
+├── docs/
+│   └── screenshots/
+│
+├── .gitignore
+├── eslint.config.js
 ├── index.html
 ├── package.json
 ├── package-lock.json
@@ -61,13 +92,13 @@ melody-music-app/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_LINK
+git clone https://github.com/Edison-builds/isai-mazhai.git
 ```
 
 ### 2. Navigate to the project folder
 
 ```bash
-cd melody-music-app
+cd isai-mazhai
 ```
 
 ### 3. Install dependencies
@@ -88,17 +119,17 @@ npm run dev
 npm run build
 ```
 
-## Music and Artwork 🎼
+## 🎼 Music and Artwork
 
-The application uses local audio files and album artwork stored inside the `public` directory.
+The application uses audio files and album artwork stored inside the `public` directory.
 
-Make sure you have the necessary permissions to distribute any music or artwork included in a public deployment.
+Distribution of included music and artwork is subject to the relevant permissions.
 
-##  Project Purpose
+## 💡 Project Purpose
 
-This project was developed to practise React development, component-based UI design, state management, event handling and working with audio playback in a web application.
+This project was developed to practise React development, component-based UI design, state management, event handling and audio playback functionality.
 
-## Developer 👨‍💻
+## 👨‍💻 Developer
 
 **Edison**
 
@@ -106,4 +137,6 @@ Created with ❤️ and music.
 
 ---
 
-*Isai Mazhai — Let the Music Rain.*
+**Isai Mazhai — இசை மழை**
+
+*Let the Music Rain.*
